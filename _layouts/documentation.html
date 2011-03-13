@@ -2,8 +2,8 @@
 <div class='main'>
 	{{ page.content }}
 	<ul class='full'> 				
-		{% gallery dir:documentation format:html %}                    
-	   		<li><a href="{{ file.path }}">{{ file.title }}</a> | <span class='light'>{{ file.description }}</span></li> 
+		{% gallery dir:documentation format:md %}                    
+	   		<li><a href="{{ file.htmlpath }}">{{ file.title }}</a> | <span class='light'>{{ file.description }}</span></li> 
 		{% endgallery %}
 	</ul>
 </div>

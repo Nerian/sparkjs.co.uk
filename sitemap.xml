@@ -6,7 +6,7 @@ layout: nil
 	<url>
 		<loc>http://sparkjs.co.uk/</loc>
 		<loc>http://sparkjs.co.uk/download.html</loc>
-		<loc>http://sparkjs.co.uk/documentation.html</loc>{% for post in site.categories.documentation %}
-		<loc>http://sparkjs.co.uk{{ post.url }}</loc>{% endfor %}
+		<loc>http://sparkjs.co.uk/documentation.html</loc>
+		<loc>http://sparkjs.co.uk{{ post.url }}</loc>
 	</url>
 </urlset>
